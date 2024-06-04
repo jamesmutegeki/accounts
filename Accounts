@@ -1,7 +1,14 @@
 #include <stdio.h>
 int main() {
     printf("Thank you for using JAMES BANK services");
-//
-int trans;
+int options;
+double balance;
+balance= 100000;
+if (amount<balance){
+printf("withdraw successful.Updated balance: %.2f\n", balance);
+}
+else if(amout>balance){
+prinf("insufficient balance for withdraw. \n");
+
     return 0;
 }
