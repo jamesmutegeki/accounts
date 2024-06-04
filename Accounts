@@ -1,0 +1,7 @@
+#include <stdio.h>
+int main() {
+    printf("Thank you for using JAMES BANK services");
+//
+int trans;
+    return 0;
+}
